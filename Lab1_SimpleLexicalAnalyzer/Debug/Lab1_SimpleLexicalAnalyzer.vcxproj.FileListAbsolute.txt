@@ -1,0 +1,2 @@
+C:\Users\Jerry Auvagha\OneDrive - Strathmore University\Projects\cpp\102321_CCProjects\Lab1_SimpleLexicalAnalyzer\Debug\Lab1_SimpleLexicalAnalyzer.exe
+C:\Users\Jerry Auvagha\OneDrive - Strathmore University\Projects\cpp\102321_CCProjects\Lab1_SimpleLexicalAnalyzer\Debug\Lab1_SimpleLexicalAnalyzer.pdb
