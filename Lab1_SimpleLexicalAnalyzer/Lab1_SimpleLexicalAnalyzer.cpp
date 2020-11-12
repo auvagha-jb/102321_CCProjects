@@ -5,7 +5,7 @@
 #include<vector>
 #include <ctype.h>
 
-#include "AnalyzerService.h"
+#include "LexicalAnalyzer.h"
 
 using namespace std;
 
@@ -14,20 +14,20 @@ int main() {
 	ifstream fin("code_file.txt");
 	char fileInput;
 
-	//The analyzerService class where the analyzer operations are defined
-	AnalyzerService analyzer;
+	//The class where the analyzer operations are defined
+	LexicalAnalyzer analyzer;
 
-	//Attempt to open the file
+	//Open the file. Exit on error
 	if (!fin.is_open()) {
 		cout << "Error while opening the file\n";
 		exit(0);
 	}
 
 	while (!fin.eof()) {
-		//The file contents
+		//Get the file contents
 		fileInput = fin.get();
 
-		//loop through the characters and categorize them accordingly
+		//Loop through the characters and categorize them accordingly
 		
 		//Others 
 		analyzer.findOtherChar(fileInput);

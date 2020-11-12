@@ -142,7 +142,7 @@
     <ClCompile Include="Lab1_SimpleLexicalAnalyzer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AnalyzerService.h" />
+    <ClInclude Include="LexicalAnalyzer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

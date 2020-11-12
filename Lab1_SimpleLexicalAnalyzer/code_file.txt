@@ -1,14 +1,12 @@
 int a, b, c;
 float d, e;
-a = b = 5;
+a = b + 7;
 c = 6;
-if ( a > b)
-{
-	c = a - b;
-	e = d - 2.0;
-}
-else
-{
-	d = e + 6.0;
+
+if ( a > b) {
+	c = a++;
+	e = d - 3.0;
+} else {
+	d = e + 8.00;
 	b = a + c;
 }
